@@ -201,7 +201,7 @@ def walk_replace(smap, data):
     if isinstance(data, collections.Sequence):
         return tuple(map(lambda x: walk_replace(smap, x), data))
     try:
-        nodes = tuple(map(lambda (k, v): process_node(k, v), data.iteritems()))
+        nodes = tuple(map(lambda kv:( process_node(k, v), data.iteritems())))
         return dict(filter(lambda node: node is not None, nodes))
     except AttributeError:
         return data
