@@ -1,2 +1,3 @@
 yahoo_fin
 plotly
+functions
