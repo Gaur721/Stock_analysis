@@ -1,4 +1,4 @@
-functions
+functions==0.7.0
 feedparser==6.0.10
 image==1.5.33
 ImageHash==4.3.1
