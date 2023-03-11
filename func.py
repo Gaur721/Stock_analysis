@@ -65,7 +65,7 @@ def walk(inner, outer, data):
         return (k, rv) if rv else None
     if isinstance(data, collections.Sequence):
         return outer(tuple(map(lambda x: walk(inner, identity, x), data)))
-    nodes = tuple(map(lambda (k, v): process_node(inner, k, v), data.iteritems()))
+    nodes = tuple(map(lambda kv: (process_node(inner, k, v), data.iteritems())))
     return outer(dict(filter(lambda node: node is not None, nodes)))
 
 
