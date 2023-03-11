@@ -31,7 +31,7 @@ stocks = get_stock_names()
 stock_dict = get_stock_ticker_dict()
 
 st.title("Stock Analysis App")
-image = Image.open('statics/stocks.jpg')
+image = Image.open('stocks.jpg')
 st.image(image,width=700)
 
 user_input = st.selectbox('__Please select the stock for Fundamental and Technical analysis__',(stocks))
