@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 from PIL import Image
-from functions import *
+#from functions import *
+from func import *
 import datetime
 
 # Add contact information
