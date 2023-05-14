@@ -3,6 +3,10 @@ from yahoo_fin import stock_info as si
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from streamlit.web.cli import main
+from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
+from streamlit.elements.arrow_altair import ArrowAltairMixin
+from altair.vegalite.v4.api import Chart
 from PIL import Image
 #from functions import *
 from func import *
