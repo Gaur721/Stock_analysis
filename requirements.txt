@@ -16,3 +16,4 @@ requests==2.26.0
 requests-html==0.10.0
 streamlit==1.19.0
 yahoo-fin==0.8.9.1
+altair==4.0
