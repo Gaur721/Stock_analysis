@@ -15,15 +15,15 @@ from imp_func import *
 
 # Add contact information
 st.sidebar.title("Gaurav Sonawane")
-st.sidebar.title("Simran Sah")
-st.sidebar.title("Sanskriti Joshi")
-st.sidebar.title("Deepraj Sonawane")
-st.sidebar.title("Suchet Suri")
+st.sidebar.write("Machine Learning Intern")
+st.sidebar.write("You can reach me at:")
+st.sidebar.subheader("sonawanegauravd6@gmail.com")
+st.sidebar.subheader("[LinkedIn](https://www.linkedin.com/in/gaurav-sonawane-008342253)")
 st.sidebar.subheader("[GitHub](https://github.com/Gaur721)")
 
 #Skills
 st.sidebar.header("Skills")
-st.sidebar.write("Here are some of our top skills:")
+st.sidebar.write("Here are some of my top skills:")
 st.sidebar.write("- Python programming")
 st.sidebar.write("- SQL")
 st.sidebar.write("- Github")
