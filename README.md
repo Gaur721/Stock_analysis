@@ -1,5 +1,4 @@
 # Stock_analysis
-https://gaur721-stock-analysis-stock-analysis-stiwz5.streamlit.app/
-
+https://stock-analy-web-app.onrender.com/
 
 This Stock analysis webapp combines fundamental and technical analysis to provide a holistic view of any stock. 
